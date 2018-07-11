@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Abstract}{1}{section.1}
+\contentsline {section}{\numberline {2}Introduction}{1}{section.2}
+\contentsline {section}{\numberline {3}SLiM}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Software Overview}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Eidos}{5}{subsection.3.2}
+\contentsline {section}{\numberline {4}TreeSeq}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Genealogical Tree Sequence Recording}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Succinct Tree Sequence Data Structures in msprime}{9}{subsection.4.2}
+\contentsline {section}{\numberline {5}Analysis}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}Neutral Model Benchmark Simulations}{10}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Non-Neutral Benchmark Simulations}{12}{subsection.5.2}
+\contentsline {section}{\numberline {6}SLiM TreeSeq Implementation}{15}{section.6}
+\contentsline {subsection}{\numberline {6.1}Pseudo Code}{15}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Algorithm and Data Structure Improvements}{18}{subsection.6.2}
+\contentsline {section}{\numberline {7}Conclusions and Future Work}{20}{section.7}
+\contentsline {section}{\numberline {8}Code for Examples and Figures}{22}{section.8}
+\contentsline {subsection}{\numberline {8.1}Algorithm with Optimizations}{23}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Recipe for Figure 1}{24}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}msprime code tree printing}{25}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Recipes for Neutral Simulations}{26}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Recipes for Non-Neutral Simulations}{26}{subsection.8.5}

@@ -1,0 +1,129 @@
+@article{Hoban,
+author = {Hoban Sean},
+title = {An overview of the utility of population simulation software in molecular ecology},
+journal = {Molecular Ecology},
+volume = {23},
+number = {10},
+year = {2014},
+pages = {2383-2401},
+keywords = {Approximate Bayesian Computation, ex situ management, in situ, landscape, molecular markers, natural history, population dynamics, prediction},
+doi = {10.1111/mec.12741},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.12741},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/mec.12741},
+abstract = {Abstract Stochastic simulation software that simultaneously model genetic, population and environmental processes can inform many topics in molecular ecology. These include forecasting species and community response to environmental change, inferring dispersal ecology, revealing cryptic mating, quantifying past population dynamics, assessing in situ management options and monitoring neutral and adaptive biodiversity change. Advances in population demographic?genetic simulation software, especially with respect to individual life history, landscapes and genetic processes, are transforming and expanding the ways that molecular data can be used. The aim of this review is to explain the roles that such software can play in molecular ecology studies (whether as a principal component or a supporting function) so that researchers can decide whether, when and precisely how simulations can be incorporated into their work. First, I use seven case studies to demonstrate how simulations are employed, their specific advantage/necessity and what alternative or complementary (nonsimulation) approaches are available. I also explain how simulations can be integrated with existing spatial, environmental, historical and genetic data sets. I next describe simulation features that may be of interest to molecular ecologists, such as spatial and behavioural considerations and species' interactions, to provide guidance on how particular simulation capabilities can serve particular needs. Lastly, I discuss the prospect of simulation software in emerging challenges (climate change, biodiversity monitoring, population exploitation) and opportunities (genomics, ancient DNA), in order to emphasize that the scope of simulation?based work is expanding. I also suggest practical considerations, priorities and elements of best practice. This should accelerate the uptake of simulation approaches and firmly embed them as a versatile tool in the molecular ecologist's toolbox.}
+}
+
+@article {Ralph2018,
+	author = {Kelleher, Jerome and Thornton, Kevin and Ashander, Jaime and Ralph, Peter},
+	title = {Efficient pedigree recording for fast population genetics simulation},
+	year = {2018},
+	doi = {10.1101/248500},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {In this paper we describe how to efficiently record the entire genetic history of a population during a forwards-time, individual-based population genetics simulation. This dramatically reduces the computational burden of tracking individual genomes by simulating only those loci that may affect reproduction (those having non-neutral variants), and recording history as a succinct tree sequence as introduced in the software package msprime, on which neutral mutations can be quickly placed afterwards. We implement the method in two popular forwards-time simulation frameworks, which speeds up large, whole-genome simulations by one to two orders of magnitude. In addition to speed, the method has several advantages: (1) All marginal genealogies of the simulated individuals are recorded, rather than just genotypes. (2) A population of N individuals with M polymorphic sites can be stored in O(N log N + M) space, making it feasible to store a simulation{\textquoteright}s entire final generation (and its{\textquoteright} history) rather than only a subset. (3) A simulation can easily be initialized with a more efficient coalescent simulation of deep history. To make these possible, we introduce the msprime Tables API, which allows for the efficient interchange of tree sequences between modular program components, and provide an algorithm to quickly simplify a tree sequence by removing history irrelevant to a given set of genomes.},
+	URL = {https://www.biorxiv.org/content/early/2018/01/16/248500},
+	eprint = {https://www.biorxiv.org/content/early/2018/01/16/248500.full.pdf},
+	journal = {bioRxiv}
+}
+
+@article{Haller2017,
+author = {Haller, Benjamin C. and Messer, Philipp W.},
+title = {{SLiM} 2: Flexible, Interactive Forward Genetic Simulations},
+journal = {Molecular Biology and Evolution},
+volume = {34},
+number = {1},
+pages = {230-240},
+year = {2017},
+doi = {10.1093/molbev/msw211},
+URL = {http://dx.doi.org/10.1093/molbev/msw211},
+eprint = {/oup/backfile/content_public/journal/mbe/34/1/10.1093_molbev_msw211/3/msw211.pdf}
+}
+
+@Article{Luikart2003,
+author={Luikart, Gordon
+and England, Phillip R.
+and Tallmon, David
+and Jordan, Steve
+and Taberlet, Pierre},
+title={The power and promise of population genomics: {F}rom genotyping to genome typing},
+journal={Nature Reviews Genetics},
+year={2003},
+month={Dec},
+day={01},
+publisher={Nature Publishing Group SN  -},
+volume={4},
+pages={981 EP  -},
+}
+
+@Article{Gillespie2001,
+author={Gillespie, John H.},
+title={IS THE POPULATION SIZE OF A SPECIES RELEVANT TO ITS EVOLUTION?},
+journal={Evolution},
+year={2001},
+month={Nov},
+day={01},
+publisher={The Society for the Study of Evolution},
+volume={55},
+number={11},
+pages={2161-2169},
+abstract={Abstract This paper examines aspects of genetic draft, the stochastic force induced by substitutions at one locus on the dynamics of a closely linked locus. Of particular interest is the role of population size on genetic draft. Remarkably, the rate of substitution of weakly selected advantageous mutations decreases with increasing population size, whereas that for deleterious mutations increases with population size. This dependency on population size is the opposite of that for genetic drift. Moreover, these rates are only weakly dependent on population size, again contrary to the strong dependency of drift-based dynamics. Four models of the strongly selected loci responsible for genetic draft are examined. Three of these exhibit a very weak dependency on population size, which implies that their induced effects will also be weakly dependent on population size. Together, these results suggest that population size and binomial sampling may not be relevant to a species' evolution. If this is the case, then a number of evolutionary conundrums are resolved. Corresponding Editor: A. Caballero},
+issn={0014-3820},
+doi={10.1554/0014-3820(2001)055[2161:ITPSOA]2.0.CO;2},
+url={https://doi.org/10.1554/0014-3820(2001)055[2161:ITPSOA]2.0.CO;2}
+}
+
+@article{Kelleher2016,
+    author = {Kelleher, Jerome AND Etheridge, Alison M AND McVean, Gilean},
+    journal = {PLOS Computational Biology},
+    publisher = {Public Library of Science},
+    title = {Efficient Coalescent Simulation and Genealogical Analysis for Large Sample Sizes},
+    year = {2016},
+    month = {05},
+    volume = {12},
+    url = {https://doi.org/10.1371/journal.pcbi.1004842},
+    pages = {1-22},
+    abstract = {Author Summary Our understanding of the distribution of genetic variation in natural populations has been driven by mathematical models of the underlying biological and demographic processes. A key strength of such coalescent models is that they enable efficient simulation of data we might see under a variety of evolutionary scenarios. However, current methods are not well suited to simulating genome-scale data sets on hundreds of thousands of samples, which is essential if we are to understand the data generated by population-scale sequencing projects. Similarly, processing the results of large simulations also presents researchers with a major challenge, as it can take many days just to read the data files. In this paper we solve these problems by introducing a new way to represent information about the ancestral process. This new representation leads to huge gains in simulation speed and storage efficiency so that large simulations complete in minutes and the output files can be processed in seconds.},
+    number = {5},
+    doi = {10.1371/journal.pcbi.1004842}
+}
+
+
+@book{gillespie2004, place={Baltimore and London}, title={Population genetics : {A} concise guide}, volume={2}, publisher={The Johns Hopkins University Press}, author={Gillespie, John h}, year={2004}}
+
+@article{Kimura1989,
+author = {Motoo Kimura},
+title = {The neutral theory of molecular evolution and the world view of the neutralists},
+journal = {Genome},
+volume = {31},
+number = {1},
+pages = {24-31},
+year = {1989},
+doi = {10.1139/g89-009},
+    note ={PMID: 2687096},
+
+URL = { 
+        https://doi.org/10.1139/g89-009
+    
+},
+eprint = { 
+        https://doi.org/10.1139/g89-009
+    
+}
+}
+
+@article {Thornton2014,
+	author = {Thornton, Kevin R.},
+	title = {A C++ Template Library for Efficient Forward-Time Population Genetic Simulation of Large Populations},
+	volume = {198},
+	number = {1},
+	pages = {157--166},
+	year = {2014},
+	doi = {10.1534/genetics.114.165019},
+	publisher = {Genetics},
+	abstract = {fwdpp is a C++ library of routines intended to facilitate the development of forward-time simulations under arbitrary mutation and fitness models. The library design provides a combination of speed, low memory overhead, and modeling flexibility not currently available from other forward simulation tools. The library is particularly useful when the simulation of large populations is required, as programs implemented using the library are much more efficient than other available forward simulation programs.},
+	issn = {0016-6731},
+	URL = {http://www.genetics.org/content/198/1/157},
+	eprint = {http://www.genetics.org/content/198/1/157.full.pdf},
+	journal = {Genetics}
+}
+
+

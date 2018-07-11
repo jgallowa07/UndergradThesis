@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.3}{SLiM}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Software Overview}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Eidos}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{TreeSeq}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Genealogical Tree Sequence Recording}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Succinct Tree Sequence Data Structures in msprime}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Analysis}{}% 9
+\BOOKMARK [2][-]{subsection.5.1}{Neutral Model Benchmark Simulations}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.2}{Non-Neutral Benchmark Simulations}{section.5}% 11
+\BOOKMARK [1][-]{section.6}{SLiM TreeSeq Implementation}{}% 12
+\BOOKMARK [2][-]{subsection.6.1}{Pseudo Code}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.2}{Algorithm and Data Structure Improvements}{section.6}% 14
+\BOOKMARK [1][-]{section.7}{Conclusions and Future Work}{}% 15
+\BOOKMARK [1][-]{section.8}{Code for Examples and Figures}{}% 16
+\BOOKMARK [2][-]{subsection.8.1}{Algorithm with Optimizations}{section.8}% 17
+\BOOKMARK [2][-]{subsection.8.2}{Recipe for Figure 1}{section.8}% 18
+\BOOKMARK [2][-]{subsection.8.3}{msprime code tree printing}{section.8}% 19
+\BOOKMARK [2][-]{subsection.8.4}{Recipes for Neutral Simulations}{section.8}% 20
+\BOOKMARK [2][-]{subsection.8.5}{Recipes for Non-Neutral Simulations}{section.8}% 21

@@ -1,0 +1,82 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Luikart2003}
+\citation{gillespie2004}
+\citation{Hoban}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Abstract}{1}{section.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Introduction}{1}{section.2}}
+\citation{Ralph2018}
+\citation{Thornton2014}
+\citation{Ralph2018}
+\citation{Haller2017}
+\@writefile{toc}{\contentsline {section}{\numberline {3}SLiM}{3}{section.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Software Overview}{3}{subsection.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Eidos}{5}{subsection.3.2}}
+\citation{Kimura1989}
+\citation{Kelleher2016}
+\@writefile{toc}{\contentsline {section}{\numberline {4}TreeSeq}{6}{section.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Genealogical Tree Sequence Recording}{6}{subsection.4.1}}
+\citation{Ralph2018}
+\citation{Ralph2018}
+\citation{Kelleher2016}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:f1}{{1a}{8}{Subfigure 1a}{subfigure.1.1}{}}
+\newlabel{sub@fig:f1}{{(a)}{a}{Subfigure 1a\relax }{subfigure.1.1}{}}
+\newlabel{fig:f2}{{1b}{8}{Subfigure 1b}{subfigure.1.2}{}}
+\newlabel{sub@fig:f2}{{(b)}{b}{Subfigure 1b\relax }{subfigure.1.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The above shows an example a of single gene tree within the embellished pedigree of a population simulated in a SLiM non-Wright Fischer model, defined on the interval [0,52859). The tree was build and printed by the \textbf  {msprime} succinct tree sequence Python API. Tree (a) was simplified to represent the genealogical histories of all extant individuals which resulted in tree (b). With possibly hundreds of thousands of these trees defined on separate gene segments, it should be clear that the number of neutral mutations needed to be simulated without simplification is much greater than after. \relax }}{8}{figure.caption.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Unsimplified.}}}{8}{subfigure.1.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Simplified}}}{8}{subfigure.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Succinct Tree Sequence Data Structures in msprime}{9}{subsection.4.2}}
+\citation{Ralph2018}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Analysis}{10}{section.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Neutral Model Benchmark Simulations}{10}{subsection.5.1}}
+\citation{Ralph2018}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  Total runtime as a function of chromosome length in each simulation. This chart shows SLiM tracking neutral mutations (Blue), SLiM with genealogical tree sequence recording (Green), and msprime coalescent (Red) with different sample sizes. Plotted on a log scale we can see the scalability of the genealogical tree sequence recording strategy as it reduces runtime by over two orders of magnitude for realistic size genomes. \relax }}{11}{figure.caption.4}}
+\newlabel{fig:NeutralComp}{{2}{11}{Total runtime as a function of chromosome length in each simulation. This chart shows SLiM tracking neutral mutations (Blue), SLiM with genealogical tree sequence recording (Green), and msprime coalescent (Red) with different sample sizes. Plotted on a log scale we can see the scalability of the genealogical tree sequence recording strategy as it reduces runtime by over two orders of magnitude for realistic size genomes. \relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Non-Neutral Benchmark Simulations}{12}{subsection.5.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Total runtime as a function of $\rho = 4Nr$, where r is the effective recombination rate. All simulations were run with two different values of population size ($N$) to observe scaling of number of individuals. On the left we can see the runtimes for SLiM tracking all neutral mutations and not recording the genealogical tree sequence. The dashed pink and light blue were run with the stable release version of SLiM 2.6. On the right, we show the same simulations run with genealogical tree sequence recording and laying neutral mutations over the trees retroactively. Here, dashed pink and light blue represent genealogical tree sequence recording with the $[record mutations = F]$ option. \relax }}{13}{figure.caption.5}}
+\newlabel{fig:NonNeutralComp}{{3}{13}{Total runtime as a function of $\rho = 4Nr$, where r is the effective recombination rate. All simulations were run with two different values of population size ($N$) to observe scaling of number of individuals. On the left we can see the runtimes for SLiM tracking all neutral mutations and not recording the genealogical tree sequence. The dashed pink and light blue were run with the stable release version of SLiM 2.6. On the right, we show the same simulations run with genealogical tree sequence recording and laying neutral mutations over the trees retroactively. Here, dashed pink and light blue represent genealogical tree sequence recording with the $[record mutations = F]$ option. \relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  Total memory (maximum resident set size in KB) as a function of $\rho = 4Nr$, where r is the effective recombination rate. All simulations were run with two different values of population size ($N$) to observe scaling of number of individuals. On the left we can see the memory for SLiM tracking all neutral mutations and not recording the genealogical tree sequence. The dashed pink and light blue were run with the stable release version of SLiM 2.6. On the right, we show the same simulations run with genealogical tree sequence recording and retroactively laying neutral mutations over the trees. Here, dashed pink and light blue represent genealogical tree sequence recording with the $[recordMutations = F]$ option. \relax }}{14}{figure.caption.6}}
+\newlabel{fig:NonNeutralMemComp}{{4}{14}{Total memory (maximum resident set size in KB) as a function of $\rho = 4Nr$, where r is the effective recombination rate. All simulations were run with two different values of population size ($N$) to observe scaling of number of individuals. On the left we can see the memory for SLiM tracking all neutral mutations and not recording the genealogical tree sequence. The dashed pink and light blue were run with the stable release version of SLiM 2.6. On the right, we show the same simulations run with genealogical tree sequence recording and retroactively laying neutral mutations over the trees. Here, dashed pink and light blue represent genealogical tree sequence recording with the $[recordMutations = F]$ option. \relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}SLiM TreeSeq Implementation}{15}{section.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Pseudo Code}{15}{subsection.6.1}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Genealogical Tree Sequence Recording\relax }}{17}{algorithm.1}}
+\newlabel{euclid}{{1}{17}{Genealogical Tree Sequence Recording\relax }{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Algorithm and Data Structure Improvements}{18}{subsection.6.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusions and Future Work}{20}{section.7}}
+\bibdata{Citations}
+\bibcite{gillespie2004}{{1}{}{{}}{{}}}
+\bibcite{Haller2017}{{2}{}{{}}{{}}}
+\bibcite{Kelleher2016}{{3}{}{{}}{{}}}
+\bibcite{Ralph2018}{{4}{}{{}}{{}}}
+\bibcite{Kimura1989}{{5}{}{{}}{{}}}
+\bibcite{Luikart2003}{{6}{}{{}}{{}}}
+\bibcite{Hoban}{{7}{}{{}}{{}}}
+\bibcite{Thornton2014}{{8}{}{{}}{{}}}
+\bibstyle{plain}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Code for Examples and Figures}{22}{section.8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Algorithm with Optimizations}{23}{subsection.8.1}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Genealogical Tree Sequence Recording Algorithm\relax }}{23}{algorithm.2}}
+\newlabel{euclid}{{2}{23}{Genealogical Tree Sequence Recording Algorithm\relax }{algorithm.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Recipe for Figure 1}{24}{subsection.8.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}msprime code tree printing}{25}{subsection.8.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Recipes for Neutral Simulations}{26}{subsection.8.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Recipes for Non-Neutral Simulations}{26}{subsection.8.5}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers

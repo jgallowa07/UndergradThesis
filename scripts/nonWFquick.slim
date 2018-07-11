@@ -1,0 +1,35 @@
+initialize(){
+	setSeed(1523562691046);
+	initializeSLiMModelType("nonWF");
+	initializeTreeSeq(runCrosschecks=T);
+	defineConstant("K", 5);
+	initializeMutationType("m1", 0.5, "f", 0.0);
+	m1.convertToSubstitution = T;
+	initializeGenomicElementType("g1", m1, 1.0);
+	initializeGenomicElement(g1, 0, 99999);
+	initializeMutationRate(1e-7);
+	initializeRecombinationRate(1e-8);
+}
+reproduction()
+{
+	subpop.addCrossed(individual, subpop.sampleIndividuals(1));
+	return NULL;
+}
+1 early()
+{
+	sim.addSubpop("p1", 5);
+}
+early()
+{
+	p1.fitnessScaling = K / p1.individualCount;
+}
+10 late()
+{
+
+	sim.treeSeqOutput("~/Documents/UndergraduateThesis/UnsimplifiedTable/",binary = F,simplify = F);
+	sim.treeSeqOutput("~/Documents/UndergraduateThesis/SimplifiedTable/",binary = F,simplify = T);
+	sim.simulationFinished();
+
+}
+200 late()
+{

@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+
+\bibitem{gillespie2004}
+John~h Gillespie.
+\newblock {\em Population genetics : {A} concise guide}, volume~2.
+\newblock The Johns Hopkins University Press, 2004.
+
+\bibitem{Haller2017}
+Benjamin~C. Haller and Philipp~W. Messer.
+\newblock {SLiM} 2: Flexible, interactive forward genetic simulations.
+\newblock {\em Molecular Biology and Evolution}, 34(1):230--240, 2017.
+
+\bibitem{Kelleher2016}
+Jerome Kelleher, Alison~M Etheridge, and Gilean McVean.
+\newblock Efficient coalescent simulation and genealogical analysis for large
+  sample sizes.
+\newblock {\em PLOS Computational Biology}, 12(5):1--22, 05 2016.
+
+\bibitem{Ralph2018}
+Jerome Kelleher, Kevin Thornton, Jaime Ashander, and Peter Ralph.
+\newblock Efficient pedigree recording for fast population genetics simulation.
+\newblock {\em bioRxiv}, 2018.
+
+\bibitem{Kimura1989}
+Motoo Kimura.
+\newblock The neutral theory of molecular evolution and the world view of the
+  neutralists.
+\newblock {\em Genome}, 31(1):24--31, 1989.
+\newblock PMID: 2687096.
+
+\bibitem{Luikart2003}
+Gordon Luikart, Phillip~R. England, David Tallmon, Steve Jordan, and Pierre
+  Taberlet.
+\newblock The power and promise of population genomics: {F}rom genotyping to
+  genome typing.
+\newblock {\em Nature Reviews Genetics}, 4:981 EP --, Dec 2003.
+
+\bibitem{Hoban}
+Hoban Sean.
+\newblock An overview of the utility of population simulation software in
+  molecular ecology.
+\newblock {\em Molecular Ecology}, 23(10):2383--2401, 2014.
+
+\bibitem{Thornton2014}
+Kevin~R. Thornton.
+\newblock A c++ template library for efficient forward-time population genetic
+  simulation of large populations.
+\newblock {\em Genetics}, 198(1):157--166, 2014.
+
+\end{thebibliography}
