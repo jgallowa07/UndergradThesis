@@ -1,0 +1,39 @@
+
+initialize() {	
+
+	initializeTreeSeq(recordMutations = F);
+
+    	N = n_ind;
+    	rho = size_rho;
+
+    	numLoci = 1e8;
+		
+    	r = rho / (4*N);
+
+    	mutation_recombination_Rate = r / numLoci; 
+
+    	defineConstant("NumInd",N);
+
+    	initializeMutationRate(mutation_recombination_Rate / 100);
+    	initializeMutationType("m1", 0.5, "g", -5 / (2*N), 1.0);	//Deleterious Mutations
+    	initializeGenomicElementType("g1",m1, 1.0);
+    	initializeGenomicElement(g1, 0, numLoci-1);
+    	initializeRecombinationRate(mutation_recombination_Rate);
+	
+}
+1 late() { 
+
+	sim.addSubpop("p1", NumInd); 
+	timeToRun = 10 * NumInd;
+	sim.rescheduleScriptBlock(s1,timeToRun,timeToRun);
+}
+s1 10000 late() { 
+
+	tablesfilestring = asString(n_ind) + "_" + asString(size_rho) + "Tables";
+	sim.treeSeqOutput("~/Documents/SLiM_TSBenchmarks/Bench/Tables/" + tablesfilestring);
+	catn("Simulation Finished");
+	sim.simulationFinished(); 
+
+}
+
+

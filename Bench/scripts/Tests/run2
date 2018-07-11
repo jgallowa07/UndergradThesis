@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sbatch run_batch_test2.sbatch
+
